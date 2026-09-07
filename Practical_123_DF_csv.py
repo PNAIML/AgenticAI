@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv("students.csv")
+df1=pd.read_csv("messy_students.csv")
+#print(df)
+#print(df1)
+#print(df.head(10))
+#print(df.tail(10))
+#print(df.shape)
+#print(df.columns)
+#print(df.info)
+print(df.describe())
